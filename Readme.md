@@ -1,23 +1,23 @@
 # ⚡ Smart Home Energy Monitoring System (IoT & Data Analytics Platform)
 
-An industry-aligned, software-driven IoT project that simulates real-time electrical grid parameters and appliance load signatures. It utilizes edge-computing mathematical principles to compute power analytics, track dynamic energy consumption, estimate electricity billing, and manage automated grid overload safety alerts through a premium web dashboard[cite: 1].
+An industry-aligned, software-driven IoT project that simulates real-time electrical grid parameters and appliance load signatures. It utilizes edge-computing mathematical principles to compute power analytics, track dynamic energy consumption, estimate electricity billing, and manage automated grid overload safety alerts through a premium web dashboard.
 
 ## 📸 Production-Ready Live Dashboard Showcase
 
 ![Live Web Dashboard Layout](python_simulation/dashboard_screenshot.png)
 
 ## 🌟 Core Architecture & Technical Features
-- **Deterministic Appliance Load Profiles:** Simulates realistic power draws based on real home appliances (AC, Refrigerator, Smart TV, Lights, Geyser) cycling ON/OFF dynamically with mathematical noise insertion[cite: 1].
-- **Dynamic Voltage Fluctuations:** Replicates actual Indian power grid inconsistencies by fluctuating voltages realistically between $225\text{V}$ and $235\text{V}$[cite: 1].
-- **Edge Analytics Pipeline:** Instantly computes Total Current Load ($I = \frac{P}{V}$), Active Power Demand (Watts), Cumulative Unit Consumption ($\text{kWh}$), and Running Financial Costs (INR)[cite: 1].
-- **Smart Overload Engine:** Evaluates live demand against a safe household threshold ($3.2\text{kW}$) and instantly trips the monitoring status to flag a critical overlay alert[cite: 1].
-- **Structured Data Persistence:** Continuously logs structured telemetry data into a local CSV file, mimicking real time-series database (TSDB) storage transactions for historical audit reports[cite: 1].
+- **Deterministic Appliance Load Profiles:** Simulates realistic power draws based on real home appliances (AC, Refrigerator, Smart TV, Lights, Geyser) cycling ON/OFF dynamically with mathematical noise insertion.
+- **Dynamic Voltage Fluctuations:** Replicates actual Indian power grid inconsistencies by fluctuating voltages realistically between $225\text{V}$ and $235\text{V}$.
+- **Edge Analytics Pipeline:** Instantly computes Total Current Load ($I = \frac{P}{V}$), Active Power Demand (Watts), Cumulative Unit Consumption ($\text{kWh}$), and Running Financial Costs (INR).
+- **Smart Overload Engine:** Evaluates live demand against a safe household threshold ($3.2\text{kW}$) and instantly trips the monitoring status to flag a critical overlay alert.
+- **Structured Data Persistence:** Continuously logs structured telemetry data into a local CSV file, mimicking real time-series database (TSDB) storage transactions for historical audit reports.
 
 ## 🛠️ Complete Tech Stack
-- **Core Simulation Engine:** Python 3.x[cite: 1]
-- **Visualization Web App Frontend:** Streamlit Framework[cite: 1]
-- **Data Structuring & Analytics:** Pandas Engine[cite: 1]
-- **Plotting Pipeline:** Matplotlib Time-Series Graphs[cite: 1]
+- **Core Simulation Engine:** Python 3.x
+- **Visualization Web App Frontend:** Streamlit Framework
+- **Data Structuring & Analytics:** Pandas Engine
+- **Plotting Pipeline:** Matplotlib Time-Series Graphs
 
 ## 📂 Project Repository Directory Tree
 ```text
